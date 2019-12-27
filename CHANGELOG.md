@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/overlayed-app/elements/compare/v1.2.0...v1.3.0) (2019-12-27)
+
+
+### Features
+
+* **release:** add pr validation ([#1](https://github.com/overlayed-app/elements/issues/1)) ([a4b377e](https://github.com/overlayed-app/elements/commit/a4b377e3b14cd9b9d48cf20a46cc3b8ae511274a))
+
 ## [1.2.0](https://github.com/overlayed-app/elements/compare/v1.1.0...v1.2.0) (2019-12-27)
 
 
