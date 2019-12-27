@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/overlayed-app/elements/compare/v1.1.0...v1.2.0) (2019-12-27)
+
+
+### Features
+
+* **release:** add cd ([5ca0e6f](https://github.com/overlayed-app/elements/commit/5ca0e6fbc0556a0d0f01779faf321aa01965b6e5))
+
 ## 1.1.0 (2019-12-27)
 
 
