@@ -1,7 +1,7 @@
 [
   {
-    "url": "https://cdn.jsdelivr.net/gh/overlayed-app/remote-overlay-test@1.1.0/index.js",
-    "version": "1.1.0",
+    "url": "https://cdn.jsdelivr.net/gh/overlayed-app/remote-overlay-test@1/index.js",
+    "version": "1.0.0-latest",
     "name": "@overlayed-app/test-greeter",
     "tagline": "A test greeter that you probably should not use."
   }
