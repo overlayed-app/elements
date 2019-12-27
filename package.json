@@ -1,0 +1,39 @@
+{
+  "name": "elements",
+  "version": "1.0.0",
+  "description": "Elements registry",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version -a",
+    "commit": "git-cz"
+  },
+  "standard-version": {
+    "scripts": {
+      "prerelease": "node tooling/diff/index.js",
+      "postcommit": "npx @overlayed-app/standard-version-tagger"
+    },
+    "skip": {
+      "tag": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overlayed-app/elements.git"
+  },
+  "author": "Ben Greenier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/overlayed-app/elements/issues"
+  },
+  "homepage": "https://github.com/overlayed-app/elements#readme",
+  "devDependencies": {
+    "@overlayed-app/standard-version-tagger": "^2.0.0",
+    "cz-conventional-changelog": "^3.0.2",
+    "standard-version": "^7.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
