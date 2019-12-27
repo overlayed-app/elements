@@ -27,7 +27,7 @@ jobs:
       env:
         CI: true
     - name: snapshot
-      uses: overlayed-app/action-element-snapshot@v5.0.0
+      uses: overlayed-app/action-element-snapshot@v6.0.0
       with:
         source_url: https://cdn.jsdelivr.net/gh/overlayed-app/remote-overlay-test@1.1.0/index.js
         token: ${{ secrets.GITHUB_TOKEN }}
