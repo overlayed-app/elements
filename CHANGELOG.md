@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.1](https://github.com/overlayed-app/elements/compare/v1.4.0...v1.4.1) (2019-12-30)
+
+
+### Bug Fixes
+
+* **release:** ignore release commits in release action ([c8e4aed](https://github.com/overlayed-app/elements/commit/c8e4aedb56cd96951470fb4b3ec7d518246a54fa))
+
+
+
 # [1.4.0](https://github.com/overlayed-app/elements/compare/v1.3.0...v1.4.0) (2019-12-30)
 
 
