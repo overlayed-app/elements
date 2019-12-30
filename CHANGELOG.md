@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.2](https://github.com/overlayed-app/elements/compare/v1.4.1...v1.4.2) (2019-12-30)
+
+
+### Bug Fixes
+
+* **release:** fix format issue with release yml ([71716ca](https://github.com/overlayed-app/elements/commit/71716ca8ef6a6c8f3622977b69a42312a4852910))
+* **release:** skip ci should show a non-failed build status ([ab884e6](https://github.com/overlayed-app/elements/commit/ab884e613b7ddb2d81165039382ec42dd25f5aa7))
+
+
+
 ## [1.4.1](https://github.com/overlayed-app/elements/compare/v1.4.0...v1.4.1) (2019-12-30)
 
 

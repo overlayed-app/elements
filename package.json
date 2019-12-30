@@ -1,6 +1,6 @@
 {
   "name": "elements",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Elements registry",
   "main": "index.js",
   "scripts": {
