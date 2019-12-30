@@ -29,4 +29,4 @@ jobs:
         uses: overlayed-app/action-element-snapshot@v7.0.2
         with:
           source_url: https://cdn.jsdelivr.net/gh/overlayed-app/remote-overlay-test@1.1.0/index.js
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_BOT_AUTOMATION_TOKEN }}

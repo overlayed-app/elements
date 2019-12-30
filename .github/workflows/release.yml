@@ -20,7 +20,7 @@ jobs:
           git config --global user.name overlayed-app-bot
           git config --global user.email bot@overlayed.app
           git config --global credential.helper store
-          echo https://overlayed-app-bot:${{ secrets.GITHUB_TOKEN }}@github.com > ~/.git-credentials
+          echo https://overlayed-app-bot:${{ secrets.GH_BOT_AUTOMATION_TOKEN }}@github.com > ~/.git-credentials
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
