@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [1.4.0](https://github.com/overlayed-app/elements/compare/v1.3.0...v1.4.0) (2019-12-30)
+
+
+### Bug Fixes
+
+* **release:** migrate to more accurate commit analyzer ([751567d](https://github.com/overlayed-app/elements/commit/751567daaf3ab64f65e233ec13ee05bc336da3ca))
+
+
+### Features
+
+* **release:** use new snapshot action version ([b43ca10](https://github.com/overlayed-app/elements/commit/b43ca10c3739e98c75d67537ee81a36d176def14))
+
+
+
 ## [1.3.0](https://github.com/overlayed-app/elements/compare/v1.2.0...v1.3.0) (2019-12-27)
 
 
