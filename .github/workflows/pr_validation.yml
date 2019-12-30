@@ -3,11 +3,10 @@ name: PR Validation
 on:
   pull_request:
     branches:
-    - master
+      - master
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -15,19 +14,19 @@ jobs:
         node-version: [12.x]
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install, diff-validate
-      run: |
-        npm ci
-        node tooling/diff/index.js
-      env:
-        CI: true
-    - name: snapshot
-      uses: overlayed-app/action-element-snapshot@v7.0.0
-      with:
-        source_url: https://cdn.jsdelivr.net/gh/overlayed-app/remote-overlay-test@1.1.0/index.js
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm install, diff-validate
+        run: |
+          npm ci
+          node tooling/diff/index.js
+        env:
+          CI: true
+      - name: snapshot
+        uses: overlayed-app/action-element-snapshot@v7.0.2
+        with:
+          source_url: https://cdn.jsdelivr.net/gh/overlayed-app/remote-overlay-test@1.1.0/index.js
+          token: ${{ secrets.GITHUB_TOKEN }}
